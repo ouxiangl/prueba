@@ -1,0 +1,31 @@
+.task{
+	height: 38px;
+	margin: 10px 0 10px 10px;
+	padding-left: 10px;
+}
+.disabled{
+	text-decoration:line-through;
+	font-weight: 900;
+	color: #C4C4C4;
+}
+.taskCheckbox{
+	display: none;
+}
+.description{
+	cursor: default;
+	user-select: text;
+}
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.task:hover{
+	background-color: #DFDFDF;
+}
+.buttons{
+	text-align: right;
+}
